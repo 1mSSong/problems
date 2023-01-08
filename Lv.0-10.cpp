@@ -27,5 +27,6 @@ int solution(vector<vector<int>> lines) {
     for (auto i = chk.begin(); i != chk.end(); i++) {
         if (i->second > 1) answer++;
     }
+
     return answer;
 }
